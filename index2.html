@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+ody{
+    margin:0;
+    font-family:Arial,Helvectia,sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e1b4b);
+    color:white;
+    scroll-behaviuor:smooth;
+}
+/*-----NAVBAR-----*/
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:centre;
+    padding:20px 60px;
+}
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#6bf7b8;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+
+nav ul li a:hover{
+    color:#6bf7b8;
+}
+
+/* ----- HERO SECTION ----- */
+.hero{
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:60px;
+    margin:0;
+}
+
+.name{
+    color:#6bf7b8;
+}
+
+.tagline{
+    margin:15px 0 30px;
+    font-size:20px;
+    color:#94a3b8;
+}
+
+/* ----- BUTTONS ----- */
+.btn{
+    padding:12px 28px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    margin:10px;
+}
+
+.btn-primary{
+    background:#6bf7b8;
+    color:#0f172a;
+}
+
+.btn-outline{
+    border:2px solid #6bf7b8;
+    color:#6bf7b8;
+}
+
+.btn-primary:hover{
+    background:#4ade80;
+}
+
+.btn-outline:hover{
+    background:#6bf7b8;
+    color:#0f172a;
+}
+
+</style>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+    <div class="logo">KAVYA.dev</div>
+
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+    <h1>Hey, I'm <span class="name">KAVYA</span> 👋</h1>
+
+    <p class="tagline">Aspiring Frontend Developer</p>
+
+    <div>
+        <a href="#" class="btn btn-primary">View My Work</a>
+        <a href="#" class="btn btn-outline">Contact Me</a>
+    </div>
+
+</section>
+
+    
+</body>
+</html>
